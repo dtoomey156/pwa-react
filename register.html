@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Monoton&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="public/css/style.css"> -->
+        <link rel="stylesheet" href="public/css/register.css">
+        <script src="public/javascript/transitions.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="images/cactus.svg">
+    </head>
+    <body>
+        <div class="container">
+            <div class="drawer">
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" class="drawer-image" src="images/view-dashboard.svg" alt="">
+                    <h1 class="drawer-title">Dashboard</h1>
+                </div>
+                <!-- divider bar -->
+                <div class="divider-container">
+                    <div class="divider-bar"></div>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/home.svg" alt="">
+                    <h1 class="drawer-title">Home</h1>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/card-account-details-outline.svg" alt="">
+                    <h1 class="drawer-title">Profile</h1>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/message-reply-outline.svg" alt="">
+                    <h1 class="drawer-title">Messages</h1>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/clock-outline.svg" alt="">
+                    <h1 class="drawer-title">History</h1>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/note-multiple-outline.svg" alt="">
+                    <h1 class="drawer-title">Tasks</h1>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/account-group.svg" alt="">
+                    <h1 class="drawer-title">Communities</h1>
+                </div>
+                <!-- divider bar -->
+                <div class="divider-container">
+                    <div class="divider-bar"></div>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/cog.svg" alt="">
+                    <h1 class="drawer-title">Settings</h1>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/message-question.svg" alt="">
+                    <h1 class="drawer-title">Support</h1>
+                </div>
+                <!-- Individual drawer image -->
+                <div class="drawer-card">
+                    <img class="drawer-image" src="images/shield-check.svg" alt="">
+                    <h1 class="drawer-title">Privacy</h1>
+                </div>
+            </div>
+            <div class="landing">
+                <form method="post" action="/register" class="register">
+                    <span>Signup</span>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password" placeholder="password" required>
+                    <a href="/login"><button class="submit"><span>Submit</span></button></a>
+                </form>
+            </div>
+            <div class="logout">
+                <button type="button" class="logout-btn">X</button>
+            </div>
+        </div>
+            
+    </body>
+</html>
